@@ -151,6 +151,30 @@ section h3 {
   font-style: italic;
 }
 
+.participant-email {
+  flex: 1;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0 2px;
+  margin-left: auto;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+
+.delete-participant:hover {
+  background: none;
+  color: #ff0000;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
